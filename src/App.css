@@ -1,0 +1,6 @@
+html, body, #root {
+  min-height: 100%;
+  margin: 0;
+  background-color: rgb(238, 238, 238);
+  font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,small-caption;
+}

@@ -1,0 +1,10 @@
+.resume {
+    list-style: none;
+    margin: 0 auto;
+    padding: 1rem 5rem;
+    opacity: 0;
+    transition: opacity ease-out 1s;
+  }
+.resume.loaded{
+    opacity:1 
+}
