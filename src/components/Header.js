@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light" >
-      <a href="/" className="navbar-brand name">
+      <a href="/Portfolio-Site/" className="navbar-brand name">
         <span className="pro-circle"></span>
         AKHIL TOM
       </a>
@@ -33,17 +33,17 @@ function Navbar() {
       >
         <ul className="navbar-nav border-0">
           <li className="nav-item">
-            <a href="/resume" className="nav-link">
+            <a href="/Portfolio-Site/resume" className="nav-link">
               Resume
             </a>
           </li>
           <li className="nav-item ">
-            <a href="/project" className={`nav-link ${isNavbarOpen ? '' : 'nav-right'} `}>
+            <a href="/Portfolio-Site/project" className={`nav-link ${isNavbarOpen ? '' : 'nav-right'} `}>
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a href="/contact" className={`nav-link ${isNavbarOpen ? '' : 'nav-right'} `}>
+            <a href="/Portfolio-Site/contact" className={`nav-link ${isNavbarOpen ? '' : 'nav-right'} `}>
               Contact
             </a>
           </li>

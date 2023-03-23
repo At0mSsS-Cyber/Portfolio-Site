@@ -16,10 +16,10 @@ const Routing = () =>{
   )
   return(
     <Routes>
-          <Route exact path="/" element={<About />} />
-          <Route path="/resume" element={<Resume educations={EducationList} works={WorkExperience} skills={sortedSkills} certificates={Certifications} /> } />
-          <Route path="/project" element={<Projects projects={ProjectsList}/>} />
-          <Route path="/contact" element={<Contact />} />
+          <Route exact path="/Portfolio-Site/" element={<About />} />
+          <Route path="/Portfolio-Site/resume" element={<Resume educations={EducationList} works={WorkExperience} skills={sortedSkills} certificates={Certifications} /> } />
+          <Route path="/Portfolio-Site/project" element={<Projects projects={ProjectsList}/>} />
+          <Route path="/Portfolio-Site/contact" element={<Contact />} />
     </Routes>
   )
 }
