@@ -24,17 +24,17 @@ const About = () => {
           <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>A Bit About Me</h2>
           <p style={{ fontSize: '1rem', textAlign: 'left', maxWidth: '80%' }}>Talented software development professional with experience in clinical and healthcare applications. Consistent in delivering clean, error-free, reliable code to meet current or expected needs. Well-versed in software trends and confident in multiple languages, frameworks and programming tools.</p>
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
-            <a href="/resume" style={{ textDecoration:'none'}}>
+            <a href="/Portfolio-Site/resume" style={{ textDecoration:'none'}}>
               <div className={`circle ${loaded ? 'loaded' : ''}`} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',  borderRadius: '50%', backgroundColor: '#eea302', marginRight: '1rem', border: '1px solid black', fontSize: '1.5rem', color: 'black', fontWeight: 'bold' }}>
                 <span>Resume</span>
               </div>
             </a>
-            <a href="/project" style={{ textDecoration:'none'}}>
+            <a href="/Portfolio-Site/project" style={{ textDecoration:'none'}}>
               <div className={`circle ${loaded ? 'loaded' : ''}`} style={{  borderRadius: '50%', backgroundColor: '#ff3b25', marginRight: '1rem', border: '1px solid black', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <span style={{ fontSize: '1.5rem', color: 'black', fontWeight: 'bold', }}>Projects</span>
               </div>
             </a>
-            <a href="/contact" style={{ textDecoration:'none'}}>
+            <a href="/Portfolio-Site/contact" style={{ textDecoration:'none'}}>
               <div className={`circle ${loaded ? 'loaded' : ''}`} style={{  borderRadius: '50%', backgroundColor: '#80d8da', border: '1px solid black', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <span style={{ fontSize: '1.5rem', color: 'black', fontWeight: 'bold', }}>Contact</span>
               </div>
