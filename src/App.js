@@ -17,9 +17,9 @@ const Routing = () =>{
   return(
     <Routes>
           <Route exact path="/Portfolio-Site/" element={<About />} />
-          <Route path="/Portfolio-Site/resume" element={<Resume educations={EducationList} works={WorkExperience} skills={sortedSkills} certificates={Certifications} /> } />
-          <Route path="/Portfolio-Site/project" element={<Projects projects={ProjectsList}/>} />
-          <Route path="/Portfolio-Site/contact" element={<Contact />} />
+          <Route path="/Portfolio-Site/resume/" element={<Resume educations={EducationList} works={WorkExperience} skills={sortedSkills} certificates={Certifications} /> } />
+          <Route path="/Portfolio-Site/project/" element={<Projects projects={ProjectsList}/>} />
+          <Route path="/Portfolio-Site/contact/" element={<Contact />} />
     </Routes>
   )
 }
