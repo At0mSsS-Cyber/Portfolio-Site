@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" >
+    <nav className="navbar navbar-expand-lg navbar-light">
       <a href="/Portfolio-Site/" className="navbar-brand name">
         <span className="pro-circle"></span>
         AKHIL TOM
@@ -29,7 +29,7 @@ function Navbar() {
         ></i>
       </button>
       <div
-        className={`collapse navbar-collapse justify-content-end ${isNavbarOpen ? 'show' : ''} `}
+        className={`collapse navbar-collapse justify-content-end ${isNavbarOpen ? 'show' : ''}`}
       >
         <ul className="navbar-nav border-0">
           <li className="nav-item">
@@ -37,13 +37,13 @@ function Navbar() {
               Resume
             </a>
           </li>
-          <li className="nav-item ">
-            <a href="/Portfolio-Site/project" className={`nav-link ${isNavbarOpen ? '' : 'nav-right'} `}>
+          <li className="nav-item">
+            <a href="/Portfolio-Site/project" className="nav-link">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a href="/Portfolio-Site/contact" className={`nav-link ${isNavbarOpen ? '' : 'nav-right'} `}>
+            <a href="/Portfolio-Site/contact" className="nav-link">
               Contact
             </a>
           </li>
